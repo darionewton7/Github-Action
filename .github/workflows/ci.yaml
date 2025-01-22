@@ -1,0 +1,18 @@
+name: ci-golang-workflow
+on: 
+  pull_request:
+    branches:
+      - develop
+jobs:
+  check-application:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2 #comando para fazer um checkout de toda aplicaçao
+      - uses: actions/setup-go@v2 #comando para instalar a versao do go
+        with:
+          go-version: 1.15 #comando para verificar a versao do go
+      - run: go test #comando para rodar os testes
+      - run: go run math.go #comando para rodar a aplicaçao
+
+
+    
