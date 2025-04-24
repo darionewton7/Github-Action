@@ -72,4 +72,4 @@ on:
 
 ## 👨‍💻 Autor
 
-Desenvolvido por [dariosilva77](https://github.com/dariosilva77)
+Desenvolvido por [dariosilva77](https://github.com/darionewton7)
